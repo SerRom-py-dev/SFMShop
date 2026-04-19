@@ -1,0 +1,114 @@
+PS C:\Users\Sergey\Desktop\SFMShop> git log --stat
+commit 01e8f0c101dd5b9241da88d17f3bd22f1a087c24 (HEAD -> feature/test, origin/feature/test)
+Author: Sergey Romanovich <sergey.romanovich.25@yandex.ru>
+Date:   Wed Mar 25 19:50:10 2026 +0300
+
+    second commit
+
+ .idea/vcs.xml | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 6be50345a355dfb072fe331b1810e695f3a5e486 (origin/feature/add-email-validation, main, feature/add-email-validation)
+Author: Sergey Romanovich <sergey.romanovich.25@yandex.ru>
+:...skipping...
+commit 01e8f0c101dd5b9241da88d17f3bd22f1a087c24 (HEAD -> feature/test, origin/feature/test)
+Author: Sergey Romanovich <sergey.romanovich.25@yandex.ru>
+Date:   Wed Mar 25 19:50:10 2026 +0300
+
+    second commit
+
+ .idea/vcs.xml | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 6be50345a355dfb072fe331b1810e695f3a5e486 (origin/feature/add-email-validation, main, feature/add-email-validation)
+Author: Sergey Romanovich <sergey.romanovich.25@yandex.ru>
+Date:   Wed Mar 25 19:12:30 2026 +0300
+
+    нициализация проекта SFMShop
+
+ .idea/.gitignore                                   |   3 +
+ .idea/.name                                        |   1 +
+ .idea/SFMShop.iml                                  |   8 ++
+ .idea/encodings.xml                                |  14 +++
+ .idea/inspectionProfiles/profiles_settings.xml     |   6 +
+ .idea/misc.xml                                     |   7 ++
+:...skipping...
+commit 01e8f0c101dd5b9241da88d17f3bd22f1a087c24 (HEAD -> feature/test, origin/feature/test)
+Author: Sergey Romanovich <sergey.romanovich.25@yandex.ru>
+Date:   Wed Mar 25 19:50:10 2026 +0300
+
+    second commit
+
+ .idea/vcs.xml | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 6be50345a355dfb072fe331b1810e695f3a5e486 (origin/feature/add-email-validation, main, feature/add-email-validation)
+Author: Sergey Romanovich <sergey.romanovich.25@yandex.ru>
+Date:   Wed Mar 25 19:12:30 2026 +0300
+
+    нициализация проекта SFMShop
+
+ .idea/.gitignore                                   |   3 +
+ .idea/.name                                        |   1 +
+ .idea/SFMShop.iml                                  |   8 ++
+ .idea/encodings.xml                                |  14 +++
+ .idea/inspectionProfiles/profiles_settings.xml     |   6 +
+ .idea/misc.xml                                     |   7 ++
+ .idea/modules.xml                                  |   8 ++
+ .idea/vcs.xml                                      |   6 +
+ README.md                                          |   6 +
+ data/orders.txt                                    |   5 +
+ data/processed_orders_report.txt                   |   4 +
+ requirements.txt                                   |   0
+ src/__pycache__/main.cpython-313.pyc               | Bin 0 -> 6116 bytes
+ src/main.py                                        |  47 ++++++++
+ src/models/__init__.py                             |   0
+:...skipping...
+commit 01e8f0c101dd5b9241da88d17f3bd22f1a087c24 (HEAD -> feature/test, origin/feature/test)
+Author: Sergey Romanovich <sergey.romanovich.25@yandex.ru>
+Date:   Wed Mar 25 19:50:10 2026 +0300
+
+    second commit
+
+ .idea/vcs.xml | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 6be50345a355dfb072fe331b1810e695f3a5e486 (origin/feature/add-email-validation, main, feature/add-email-validation)
+Author: Sergey Romanovich <sergey.romanovich.25@yandex.ru>
+Date:   Wed Mar 25 19:12:30 2026 +0300
+
+    нициализация проекта SFMShop
+
+ .idea/.gitignore                                   |   3 +
+ .idea/.name                                        |   1 +
+ .idea/SFMShop.iml                                  |   8 ++
+ .idea/encodings.xml                                |  14 +++
+ .idea/inspectionProfiles/profiles_settings.xml     |   6 +
+ .idea/misc.xml                                     |   7 ++
+ .idea/modules.xml                                  |   8 ++
+ .idea/vcs.xml                                      |   6 +
+ README.md                                          |   6 +
+ data/orders.txt                                    |   5 +
+ data/processed_orders_report.txt                   |   4 +
+ requirements.txt                                   |   0
+ src/__pycache__/main.cpython-313.pyc               | Bin 0 -> 6116 bytes
+ src/main.py                                        |  47 ++++++++
+ src/models/__init__.py                             |   0
+ src/models/__pycache__/__init__.cpython-313.pyc    | Bin 0 -> 151 bytes
+ src/models/__pycache__/exceptions.cpython-313.pyc  | Bin 0 -> 1789 bytes
+ src/models/__pycache__/order.cpython-313.pyc       | Bin 0 -> 1542 bytes
+ src/models/__pycache__/payment.cpython-313.pyc     | Bin 0 -> 2195 bytes
+ src/models/__pycache__/product.cpython-313.pyc     | Bin 0 -> 2612 bytes
+ src/models/__pycache__/user.cpython-313.pyc        | Bin 0 -> 1096 bytes
+ src/models/exceptions.py                           |  33 ++++++
+ src/models/order.py                                |  19 ++++
+ src/models/payment.py                              |  26 +++++
+ src/models/product.py                              |  35 ++++++
+ src/models/user.py                                 |  15 +++
+ src/utils/__init__.py                              |   0
+ src/utils/__pycache__/__init__.cpython-313.pyc     | Bin 0 -> 150 bytes
+ .../__pycache__/order_processor.cpython-313.pyc    | Bin 0 -> 5486 bytes
+ src/utils/order_processor.py                       | 121 +++++++++++++++++++++
+ 30 files changed, 364 insertions(+)
+(END)
+
