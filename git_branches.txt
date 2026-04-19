@@ -1,0 +1,6 @@
+PS C:\Users\Sergey\Desktop\SFMShop> git branch -a
+  feature/add-email-validation
+* feature/test
+  main
+  remotes/origin/feature/add-email-validation
+  remotes/origin/feature/test

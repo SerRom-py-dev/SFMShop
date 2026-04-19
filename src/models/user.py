@@ -1,15 +1,15 @@
-from src.models.exceptions import ValidationError
+from src.models.metaclasses import ModelRegistryMeta
 
 
-class User:
+class User(metaclass=ModelRegistryMeta):
+    """Класс пользователя с метаклассом"""
+
     def __init__(self, name, email):
         self.name = name
-        self._email = email
-
-    def set_email(self, email):
-        if "@" not in email:
-            raise ValidationError("Неверный формат email")
-        self._email = email
+        self.email = email
 
     def get_info(self):
-        return f'Пользователь: {self.name}, Email: {self._email}'
+        return f"Пользователь: {self.name}, Email: {self.email}"
+
+    def __repr__(self):
+        return f"User('{self.name}', '{self.email}')"

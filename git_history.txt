@@ -1,0 +1,3 @@
+PS C:\Users\Sergey\Desktop\SFMShop> git log --oneline --graph --all
+* 01e8f0c (HEAD -> feature/test, origin/feature/test) second commit
+* 6be5034 (origin/feature/add-email-validation, main, feature/add-email-validation) нициализация проекта SFMShop
